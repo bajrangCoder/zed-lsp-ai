@@ -1,0 +1,62 @@
+id = "lsp-ai"
+name = "LSP AI"
+description = "lsp ai."
+version = "0.0.1"
+schema_version = 1
+authors = ["--"]
+repository = "https://github.com/bajrangCoder/zed-lsp-ai"
+
+
+[language_servers.lsp-ai]
+name = "LSP-AI"
+languages = [
+    "TypeScript",
+    "JavaScript",
+    "Vue.js",
+    "Go",
+    "Go Mod",
+    "Go Work",
+    "Shell Script",
+    "HTML",
+    "Scheme",
+    "Lua",
+    "Dart",
+    "Zig",
+    "C",
+    "C++",
+    "CSS",
+    "JSON",
+    "Markdown",
+    "Ruby",
+    "Rust",
+    "YAML",
+    "TOML",
+    "Python",
+    "Git Commit",
+    "Git Ignore",
+]
+
+[language_servers.lsp-ai.language_ids]
+Dart = "dart"
+Go = "go"
+"Go Mod" = "gomod"
+HTML = "html"
+JavaScript = "javascript"
+Lua = "lua"
+Scheme = "scm"
+"Shell Script" = "shell"
+TypeScript = "typescript"
+"Vue.js" = "vue"
+Zig = "zig"
+C = "c"
+"C++" = "cpp"
+CSS = "css"
+JSON = "json"
+Markdown = "markdown"
+Python = "python"
+Ruby = "ruby"
+Rust = "rust"
+YAML = "yaml"
+TOML = "toml"
+"Git Commit" = "git_commit"
+"Git Ignore" = "git_ignore"
